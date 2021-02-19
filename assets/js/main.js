@@ -37,21 +37,19 @@ $(window).scroll(function(){
   });
   
 // smoth work
-$("a").on('click',function(slow){
+$(".menu-list li a").on('click',function(slow){
     if(this.hash !== " "){
         slow.preventDefault();
  
         var hash=this.hash;
         $("html, body").animate({
             scrollTop:$(hash).offset().top
-        },800,function(){
+        },1000,function(){
             window.location=hash;
         } 
         );
     }
  })
- 
-
 
 /*
  ==============================================
@@ -62,7 +60,6 @@ $("a").on('click',function(slow){
 $('svg.radial-progress').each(function( index, value ) { 
     $(this).find($('circle.complete')).removeAttr( 'style' );
 });
-
 
 
 
