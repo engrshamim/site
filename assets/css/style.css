@@ -1,5 +1,18 @@
-/* ?Custom Animation */
 
+/* Block copy paste section */
+body{
+    user-select:none!important;
+    -moz-user-select:-moz-none!important;
+    -webkit-user-select:none!important;
+    -ms-user-select:none!important
+}
+.post-body blockquote,.post-body code,.post-body pre{
+    user-select:text!important;
+    -webkit-user-select:text!important;
+    -ms-user-select:text!important;
+    -moz-user-select:text!important
+}
+/* ?Custom Animation */
 .nav-animate{
 	animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
 	-webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
