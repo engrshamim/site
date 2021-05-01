@@ -656,7 +656,7 @@ company core  section css
     bottom: 0;
     width: 240px;
     height: 240px;
-    background-color: #ff4917;
+    /* background-color: #ff4917; */
     content: '';
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
             clip-path: polygon(0 0, 0 100%, 100% 100%);
@@ -669,7 +669,7 @@ company core  section css
     bottom: 0;
     width: 260px;
     height: 260px;
-    background-color: #ff4917a9;
+    /* background-color: #ff4917a9; */
     content: '';
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
             clip-path: polygon(0 0, 0 100%, 100% 100%);
