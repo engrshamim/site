@@ -204,6 +204,47 @@ a{
   .main-btn:hover {
     color: #fff;
   }
+
+/* 3D section */
+  .card {
+    transform-style: preserve-3d;
+    background-color: #4cc1de;
+    width: 53%;
+    height: 61%;
+    border-radius: 50%;
+}
+
+.sneaker {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sneaker img {
+    width: 20rem;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+    border-radius: 50%;
+}
+
+.image-pogition{
+    padding: 50px;
+    text-align: center;
+}
+
+.circle {
+    width: 18rem;
+    height: 18rem;
+    background: linear-gradient(
+        to right,
+        rgba(245, 70, 66, 0.75),
+        rgba(8, 83, 156, 0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
   
   .main-btn:hover:after {
     width: 100%;
